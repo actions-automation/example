@@ -52,6 +52,6 @@ jobs:
     steps:
       - uses: actions-automation/pull-request-responsibility@main
         with:
-          actions: "request,assign,copy-labels-linked,merge" # The actions to run.
+          actions: "request,assign,copy-labels-linked" # The actions to run.
           reviewers: "reviews" # The team to pull reviewers from for `request`.
           num_to_request: 3 # The number of reviewers that `request` should request on new PRs.
